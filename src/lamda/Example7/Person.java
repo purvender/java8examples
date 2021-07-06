@@ -26,9 +26,9 @@ public class Person {
 	public static List<Person> createShortList() {
 		List<Person> people = new ArrayList<>();
 
-		people.add(new Person("z", 16));
-		people.add(new Person("x", 17));
-		people.add(new Person("c", 18));
+		people.add(new Person("16", 16));
+		people.add(new Person("17", 17));
+		people.add(new Person("18", 18));
 
 		return people;
 	}

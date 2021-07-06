@@ -14,9 +14,9 @@ public class FutureExample {
 
 		Future<String> futureTask = getValue("1", "2");
 
-		System.out.println("future done? " + futureTask.isDone()); //task may not be done at this stage
+		System.out.println("future done? " + futureTask.isDone()); // task may not be done at this stage
 
-		String result2 = futureTask.get(); //wait till the task is done
+		String result2 = futureTask.get(); // wait till the task is done
 
 		System.out.println("future done? " + futureTask.isDone());
 		System.out.print("result: " + result2);
@@ -27,7 +27,7 @@ public class FutureExample {
 			@Override
 			public String call() throws Exception {
 				Thread.sleep(3000);
-				return value1+value2;
+				return value1 + value2;
 			}
 		});
 	}

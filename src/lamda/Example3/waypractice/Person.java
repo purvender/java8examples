@@ -10,7 +10,7 @@ public class Person {
 
 	public Person(String sur) {
 		surName = sur;
-		age = 17;
+		age = 7;
 		gender = "Male";
 	}
 

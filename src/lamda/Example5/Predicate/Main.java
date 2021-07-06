@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.function.Predicate;
 
 /*
- Predicate is a builltin interface 
+ Predicate is a built in interface 
  
  
  public interface Predicate <T>

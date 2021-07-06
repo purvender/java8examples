@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.function.Function;
 
 /*
- Function is a builltin interface 
+ Function is a built in interface 
  
  public interface Predicate <T>
  {
@@ -23,7 +23,9 @@ public class Main {
 
 		// Define Western and Eastern Lambdas
 
-		Function<Person, String> westernStyle = p -> "\nName1: " + " " + p.getSurName() + "\n";
+		Function<Person, String> westernStyle = p -> {
+			return "\nName1: " + " " + p.getSurName() + "\n";
+		};
 
 		Function<Person, String> easternStyle = p -> "\nName2: " + " " + p.getSurName() + "\n";
 
