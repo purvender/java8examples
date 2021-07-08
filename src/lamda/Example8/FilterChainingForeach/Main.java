@@ -1,4 +1,4 @@
-package lamda.Example6.FilterChainingForeach;
+package lamda.Example8.FilterChainingForeach;
 
 import java.util.List;
 import java.util.Map;

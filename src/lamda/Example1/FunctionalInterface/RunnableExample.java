@@ -1,4 +1,4 @@
-package lamda.Example1;
+package lamda.Example1.FunctionalInterface;
 
 public class RunnableExample {
 	public static void main(String[] args) {

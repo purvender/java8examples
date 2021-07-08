@@ -2,6 +2,7 @@ package lamda.Example4.Function;
 
 import java.util.List;
 import java.util.function.Function;
+import java.util.function.UnaryOperator;
 
 /*
  Function is a built in interface 
@@ -14,8 +15,16 @@ import java.util.function.Function;
 */
 
 public class Main {
+	 static int i = 5;
 
 	public static void main(String[] args) {
+		 //int i = 5;
+
+	        i = 7; // Since we have changed the value of i, the below line will not compile.
+
+	        UnaryOperator<Integer> operator = (input) -> input * i; 
+
+	        System.out.println(operator.apply(i));
 
 		System.out.println("\n==== NameTestNew02 ===");
 

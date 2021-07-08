@@ -1,4 +1,4 @@
-package lamda.Example2;
+package lamda.Example2.Comparator;
 
 import java.util.ArrayList;
 import java.util.List;

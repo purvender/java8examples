@@ -12,13 +12,13 @@ public class Ex1FilterforEach {
 			myList.add(i);
 
 		// filter foreach
-		Stream<Integer> highNums = myList.stream().filter(p -> p > 90); // filter
+		myList.stream().filter(p -> p > 90).forEach(p->System.out.println(p)); // filter
 																		// numbers
 																		// greater
 																		// than
 																		// 90
 		System.out.print("High Nums greater than 90=");
-		highNums.forEach(p -> System.out.print(p + " "));
+		//highNums.forEach(p -> System.out.print(p + " "));
 		// prints "High Nums greater than 90=91 92 93 94 95 96 97 98 99 "
 		System.out.println("");
 
